@@ -2,7 +2,7 @@ import struct, zlib, collections
 
 def read_png_pixels(path):
     with open(path, 'rb') as f:
-        data = f.read()
+        data = f.read() 
     i = 8
     chunks = {}
     while i < len(data):
